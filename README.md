@@ -1,7 +1,7 @@
 # smf-themes
 Free themes for simple machines forums
 
-All Themes are Copyright (c) 2013, Trax. (http://www.smfhost.xyz/)
+All Themes are Copyright (c) 2013 - 2016, Trax. (http://www.smfhost.xyz/)
 
 All rights reserved.
 
