@@ -6,6 +6,6 @@
 global $settings;
 
 $txt['theme_thumbnail_href'] = $settings['images_url'] . '/thumbnail.gif';
-$txt['theme_description'] = 'Very clean and modern theme.<br /><br />Total Blue by <a href="http://www.smfhost.xyz" target="_blank">SMF Host</a>.';
+$txt['theme_description'] = 'Very clean and modern theme.<br /><br />Created by, <a href="http://www.myforumhost.com" target="_blank">My Forum Host</a>.';
 
 ?>

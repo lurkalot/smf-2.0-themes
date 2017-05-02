@@ -228,7 +228,7 @@ function template_body_above()
 			<div id="bodyarea">
 		      <div id="navibar">
                <div id="center-menu">
-		       ',template_menu(),'
+		           ',template_menu(),'
 		       </div>
               </div>';
 			   theme_linktree();
@@ -252,7 +252,7 @@ function template_body_below()
 			<li><a id="button_xhtml" href="http://validator.w3.org/check?uri=referer" target="_blank" class="new_win" title="', $txt['valid_xhtml'], '"><span>', $txt['xhtml'], '</span></a></li>
 			', !empty($modSettings['xmlnews_enable']) && (!empty($modSettings['allow_guestAccess']) || $context['user']['is_logged']) ? '<li><a id="button_rss" href="' . $scripturl . '?action=.xml;type=rss" class="new_win"><span>' . $txt['rss'] . '</span></a></li>' : '', '
             <li class="last"><a id="button_wap2" href="', $scripturl , '?wap2" class="new_win"><span>', $txt['wap2'], '</span></a></li>
-			<li class="copyright"><a href="http://www.smfhost.xyz" target="_blank">SMF Host</a></li>
+			<li class="copyright"><a href="http://www.myforumhost.com" target="_blank">My Forum Host</a></li>
         </ul>';
 
 	// Show the load time?

@@ -6,6 +6,6 @@
 global $settings;
 
 $txt['theme_thumbnail_href'] = $settings['images_url'] . '/thumbnail.gif';
-$txt['theme_description'] = 'gray smf theme.<br /><br />Gray Style by <a href="http://www.smfhost.xyz" target="_blank">Trax</a>.';
+$txt['theme_description'] = 'Gray styled smf theme.<br /><br />Created by <a href="http://www.myforumhost.com" target="_blank">My Forum Host</a>.';
 
 ?>
