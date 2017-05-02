@@ -221,11 +221,11 @@ echo '
 	 </div>
   </div>
 </div>
-		  <div id="toolbar">
-		  ',template_menu(),'
-		 </div>
-			<div id="bodyarea">';
-			 theme_linktree();
+		<div id="toolbar">
+		    ',template_menu(),'
+		</div>
+			 <div id="bodyarea">';
+			     theme_linktree();
 }
 
 function template_body_below()
@@ -245,7 +245,7 @@ function template_body_below()
 									  <div class="frame">
 		<ul class="reset">
 			<li class="copyright">', theme_copyright(), '</li>
-			<li><strong>BnW</strong> by, <a href="http://www.smfhost.xyz" target="_blank" class="new_win" title=""><span>SMF Host</span></a></li>
+			<li><strong>Black and White</strong> by, <a href="http://www.myforumhost.com" target="_blank" class="new_win" title=""><span>My Forum Host</span></a></li>
 			<li><a id="button_xhtml" href="http://validator.w3.org/check?uri=referer" target="_blank" class="new_win" title="', $txt['valid_xhtml'], '"><span>', $txt['xhtml'], '</span></a></li>
 			', !empty($modSettings['xmlnews_enable']) && (!empty($modSettings['allow_guestAccess']) || $context['user']['is_logged']) ? '<li><a id="button_rss" href="' . $scripturl . '?action=.xml;type=rss" class="new_win"><span>' . $txt['rss'] . '</span></a></li>' : '', '
 			<li class="last"><a id="button_wap2" href="', $scripturl , '?wap2" class="new_win"><span>', $txt['wap2'], '</span></a></li>
