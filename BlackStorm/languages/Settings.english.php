@@ -6,6 +6,6 @@
 global $settings;
 
 $txt['theme_thumbnail_href'] = $settings['images_url'] . '/thumbnail.gif';
-$txt['theme_description'] = 'Black Storm, Modern and stylish smf theme.<br /><br />Black Storm by <a href="http://www.smfhost.xyz" target="_blank">Trax</a>.';
+$txt['theme_description'] = 'Black Storm, Modern and stylish smf theme.<br /><br />Black Storm by <a href="http://www.myforumhost.com" target="_blank">My Forum Host</a>.';
 
 ?>
