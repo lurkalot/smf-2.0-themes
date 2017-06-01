@@ -6,6 +6,6 @@
 global $settings;
 
 $txt['theme_thumbnail_href'] = $settings['images_url'] . '/thumbnail.gif';
-$txt['theme_description'] = 'Simple styled black and white theme.<br /><br />Created by <a href="http://www.myforumhost.com">My Forum Host</a>.';
+$txt['theme_description'] = 'Simple styled black and white theme.<br /><br />Created by <a href="http://www.namemy.site">Name My Site</a>.';
 
 ?>
