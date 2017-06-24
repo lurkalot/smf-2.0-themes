@@ -200,6 +200,7 @@ function template_body_above()
 					<span>'.$txt['username'].': </span><input type="text" name="user" size="10" class="input_text" />
 					<span>'.$txt['password'].': </span><input type="password" name="passwrd" size="10" class="input_password" />
 					<input type="submit" value="', $txt['login'], '" class="button_submit" />
+					<input type="hidden" name="', $context['session_var'], '" value="', $context['session_id'], '" />
 				</form>
 	      </div>';
 	      }

@@ -213,6 +213,7 @@ function template_body_above()
 					<input type="password" name="passwrd" class="userlog"  size="10" />
 					<input type="submit" value="', $txt['login'], '" class="button_submit" />
 					<input type="hidden" name="hash_passwrd" value="" />
+					<input type="hidden" name="', $context['session_var'], '" value="', $context['session_id'], '" />
 				</form>';
 			  }
 		  echo '

@@ -209,6 +209,7 @@ echo !empty($settings['forum_width']) ? '
 					</select>
                     <input type="submit" value="', $txt['login'], '" class="button_submit" />
 					<input type="hidden" name="hash_passwrd" value="" />
+					<input type="hidden" name="', $context['session_var'], '" value="', $context['session_id'], '" />
 				</form>', $context['current_time'],'<br />';
 			  }
 		  echo '
