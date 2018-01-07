@@ -243,7 +243,7 @@ function template_body_below()
 			  </div>';
 
 				// Show the "Powered by" and "Valid" logos, as well as the copyright. Remember, the copyright must be somewhere!
-				// Removal of the themes copyright links is illegal. Remove at your own risk! Contact Trax to have it removed legitimately.
+				// Removal of the themes copyright links is against our terms. Remove at your own risk!.
 			echo '
 							<div id="footerarea">
 								 <div id="footer_section">
@@ -253,7 +253,7 @@ function template_body_below()
 			<li><a id="button_xhtml" href="http://validator.w3.org/check?uri=referer" target="_blank" class="new_win" title="', $txt['valid_xhtml'], '"><span>', $txt['xhtml'], '</span></a></li>
 			', !empty($modSettings['xmlnews_enable']) && (!empty($modSettings['allow_guestAccess']) || $context['user']['is_logged']) ? '<li><a id="button_rss" href="' . $scripturl . '?action=.xml;type=rss" class="new_win"><span>' . $txt['rss'] . '</span></a></li>' : '', '
             <li class="last"><a id="button_wap2" href="', $scripturl , '?wap2" class="new_win"><span>', $txt['wap2'], '</span></a></li>
-			<li class="copyright"><a href="http://www.namemy.site" target="_blank">Name My Site</a></li>
+			<li class="copyright"><a href="https://www.smartforums.co" target="_blank">Smart Forums</a></li>
         </ul>';
 
 	// Show the load time?
